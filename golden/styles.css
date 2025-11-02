@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(assembly.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center; 
+   background-attachment: fixed;
+}
+
+header {
+    
+    color: rgb(6, 105, 39);
+    text-align: center;
+    padding: 10px;
+    height: 30vh;
+}
+
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    background-color:rgb(4, 88, 36);
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+.active {
+    color: yellow;
+    text-decoration: underline;
+}
+
+.hero>h2 {
+    
+    color: rgb(4, 75, 19);
+    padding: 20px;
+    text-align: center;
+    font-size: 35px;
+    background-color: white;
+    width: 100%;
+    height: 5vh;
+    margin-top: 30vh;
+    
+}
+.hero>p {
+text-align: center;
+padding: 20px;
+font-size: 15px;
+color: black;
+}
+.container {
+    background: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 80%;
+    border-radius: 5px;
+}
+
+.staff-list {
+    display: grid;
+    gap: 10px;
+}
+
+.teacher {
+    background: #eee;
+    padding: 10px;
+    border-left: 5px solid #00aa41;
+}
+
+footer {
+    background-color: rgb(2, 53, 2);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.logo {
+width: 30vh;
+height: 30vh;
+}
